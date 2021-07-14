@@ -1,21 +1,17 @@
 {
   "type": "library",
-  "name": "zoujingli/think-library",
+  "name": "ailhb/think-library",
   "license": "MIT",
-  "homepage": "http://thinkadmin.top",
-  "description": "ThinkPHP v6.0 Development Library",
+  "homepage": "http://alhb.top",
+  "description": "ThinkPHP v6.0 Development Helper",
   "authors": [
     {
-      "name": "Anyon",
-      "email": "zoujingli@qq.com"
+      "name": "Ailhb",
+      "email": "admin@alhb.top"
     }
   ],
   "support": {
-    "email": "zoujingli@qq.com",
-    "wiki": "https://thinkadmin.top",
-    "forum": "https://thinkadmin.top",
-    "source": "https://gitee.com/zoujingli/ThinkLibrary",
-    "issues": "https://gitee.com/zoujingli/ThinkLibrary/issues"
+    "email": "admin@alhb.top"
   },
   "require": {
     "ext-gd": "*",

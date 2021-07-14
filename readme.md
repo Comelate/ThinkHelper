@@ -1,12 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/zoujingli/think-library/v/stable)](https://packagist.org/packages/zoujingli/think-library) [![Total Downloads](https://poser.pugx.org/zoujingli/think-library/downloads)](https://packagist.org/packages/zoujingli/think-library) [![Latest Unstable Version](https://poser.pugx.org/zoujingli/think-library/v/unstable)](https://packagist.org/packages/zoujingli/think-library) [![License](https://poser.pugx.org/zoujingli/think-library/license)](https://packagist.org/packages/zoujingli/think-library)
 
-> 近期 Github 网络访问不稳定，项目主库已迁移到 Gitee 仓库
-> 
-> 注意：Github 仓库不会经常更新，获取最新源码请访问 Gitee 仓库
-> 
-> Gitee 仓库地址：https://gitee.com/zoujingli/ThinkLibrary
-
-ThinkLibrary 6.0 for ThinkPHP 6.0
+ThinkHelper 6.0 for ThinkPHP 6.0
 ---
 
 ThinkLibrary 6.0 是针对 ThinkPHP 6.0 版本封装的一套工具类库，方便快速构建 Web 应用。
@@ -30,25 +23,7 @@ ThinkLibrary 6.0 是针对 ThinkPHP 6.0 版本封装的一套工具类库，方�
 
 #### ThinkAdmin - V6.0
 
-* Gitee 仓库 https://gitee.com/zoujingli/ThinkAdmin/tree/v6
-* Github 仓库 https://github.com/zoujingli/ThinkAdmin/tree/v6
-* 体验地址（账号密码都是admin）https://v6.thinkadmin.top
-
-## 代码仓库
-
-ThinkLibrary 为 MIT 协议开源项目，安装使用或二次开发不受约束，欢迎 fork 项目。
-
-部分代码来自互联网，若有异议可以联系作者进行删除。
-
-* 在线体验地址：https://v6.thinkadmin.top （账号和密码都是 admin ）
-* Gitee 仓库地址：https://gitee.com/zoujingli/ThinkLibrary
-* Github 仓库地址：https://github.com/zoujingli/ThinkLibrary
-
 ## 使用说明
-
-* ThinkLibrary 需要 Composer 支持
-* 安装命令 ` composer require zoujingli/think-library 6.0.x-dev`
-* 案例代码： 控制器需要继承 `think\admin\Controller`，然后`$this`就可能使用全部功能
 
 ```php
 // 定义 MyController 控制器
@@ -278,7 +253,3 @@ $string = encode($content);
 // 加密字符串解密
 $content = decode($string);
 ```
-
-## 赞助打赏
-
-![赞助](http://static.thinkadmin.top/pay.png)
