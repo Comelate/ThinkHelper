@@ -82,11 +82,11 @@ abstract class Controller extends stdClass
      * @param mixed $data 返回数据
      * @param mixed $code 返回代码
      */
-    public function error($info, $data = '{-null-}', $code = 0): void
+    public function error($info, $data = '{-null-}', $code = 400): void
     {
         if ($data === '{-null-}') $data = new stdClass();
         throw new HttpResponseException(json([
-            'code' => $code, 'info' => $info, 'data' => $data,
+            'code' => $code, 'msg' => $info, 'data' => $data,
         ]));
     }
 
@@ -96,7 +96,7 @@ abstract class Controller extends stdClass
      * @param mixed $data 返回数据
      * @param mixed $code 返回代码
      */
-    public function success($info, $data = '{-null-}', $code = 1): void
+    public function success($info, $data = '{-null-}', $code = 200): void
     {
         if ($this->csrf_state) {
             TokenHelper::instance()->clear();
