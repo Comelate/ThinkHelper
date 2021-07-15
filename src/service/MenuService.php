@@ -55,7 +55,7 @@ class MenuService extends Service
      * @return array
      * @throws ReflectionException
      */
-    private function _buildData(array $menus): array
+    public function _buildData(array $menus): array
     {
         $service = AdminService::instance();
         foreach ($menus as $key => &$menu) {
